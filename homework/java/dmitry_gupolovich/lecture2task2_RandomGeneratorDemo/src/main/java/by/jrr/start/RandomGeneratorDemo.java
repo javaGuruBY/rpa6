@@ -9,14 +9,11 @@ import java.util.Arrays;
 public class RandomGeneratorDemo {
     public static void main(String[] args) {
         int array[] = new int[3];
-        for (int i = 0; i < 3 ; i++) {
-            array[i] = (int) (Math.random()*500);
+        for (int i = 0; i < 3; i++) {
+            array[i] = (int) (Math.random() * 500);
         }
-
         Arrays.stream(array).forEach(x -> System.out.printf("%s ", x));
-
-        System.out.println("\nSum array is = "+Arrays.stream(array).sum());
-
+        System.out.println("\nSum array is = " + Arrays.stream(array).sum());
     }
 }
 
