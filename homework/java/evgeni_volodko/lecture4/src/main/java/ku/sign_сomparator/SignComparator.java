@@ -1,4 +1,4 @@
-package ku.signComparator;
+package ku.sign_сomparator;
 
 public class SignComparator {
 

@@ -8,7 +8,7 @@ public class PhraseAnalyserTest {
     }
 
     public void test1(){
-        String testDescription = "Should correctly identify the number";
+        String testDescription = "Should correctly identify the phrase";
 
         PhraseAnalyser victim = new PhraseAnalyser();
 
