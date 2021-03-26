@@ -19,4 +19,4 @@
 Банковский баланс - bankBalance
 Кредитная карта - card
 Количество колес у велосипеда - wheelsNumber
-Стоимость билета - ticketPrice
+Стоимость билета - ticketPrice.
