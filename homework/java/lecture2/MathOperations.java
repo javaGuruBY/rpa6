@@ -35,7 +35,7 @@ public class MathOperations {
 
         System.out.println("3) Multiplication '*':");
         short h = 20;
-        short g = (18);
+        short g = 18;
         System.out.println("h = " + h + ", g = " + g);
         System.out.println("h * g = " + h + " * " + g + " = " + (20 * 18));
 
@@ -43,6 +43,6 @@ public class MathOperations {
         short m = 45;
         short n = 5;
         System.out.println("m = " + m + ", n = " + n);
-        System.out.println("m / n = " + m + " / " + n + " = " + (15 / 3));
+        System.out.println("m / n = " + m + " / " + n + " = " + (45 / 5));
     }
 }
