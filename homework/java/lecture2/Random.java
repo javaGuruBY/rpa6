@@ -14,14 +14,14 @@ public class RandomGeneratorDemo {
         System.out.println("c = " + c);
         int sum = a + b + c;
         System.out.println();
-        System.out.println("a + b + c= ");
-        System.out.println(a);
-        System.out.println(" + ");
-        System.out.println(b);
-        System.out.println(" + ");
-        System.out.println(c);
-        System.out.println(" = ");
-        System.out.println(sum);
+        System.out.print("a + b + c = ");
+        System.out.print(a);
+        System.out.print(" + ");
+        System.out.print(b);
+        System.out.print(" + ");
+        System.out.print(c);
+        System.out.print(" = ");
+        System.out.print(sum);
 
     }
 }
