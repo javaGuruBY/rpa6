@@ -2,7 +2,7 @@ package ku.stock;
 
 public class Stock {
 
-    private final String name;
+    private String name;
     private double currentPrice;
     private double minPrice;
     private double maxPrice;
@@ -29,6 +29,10 @@ public class Stock {
         return name;
     }
 
+    public void setName(String name){
+        this.name = name;
+    }
+
     public double getCurrentPrice(){
         return currentPrice;
     }
@@ -40,6 +44,7 @@ public class Stock {
     public double getMaxPrice(){
         return maxPrice;
     }
+
 
     public static void main(String[] args) {
         Stock stock = new Stock("GOOG", 10);
