@@ -9,6 +9,7 @@ public class LoginServiceTest {
 
     LoginService loginService;
     User user;
+    User blockedUser;
     String positiveUserInput = "qwerty";
     String negativeUserInput = "not qwerty";
 
@@ -70,13 +71,32 @@ public class LoginServiceTest {
     public void setUp(){
        this.loginService = new LoginService();
         this.user = getUser();
+        this.blockedUser = getBlockedUser();
+
         Assert.assertEquals(3, user.getLoginAttempts());
         Assert.assertFalse(user.isBlocked());
+
+        Assert.assertEquals(0, blockedUser.getLoginAttempts());
+        Assert.assertTrue(blockedUser.isBlocked());
+    }
+
+    @Test
+    public void blockedUserLoginShouldReturnFalse(){
+        boolean actual = loginService.login(blockedUser, positiveUserInput);
+        Assert.assertFalse(actual);
     }
 
     private User getUser() {
         User user = new User();
         user.setPassword("qwerty");
+        return user;
+    }
+
+    private User getBlockedUser() {
+        User user = new User();
+        user.setPassword("qwerty");
+        user.setLoginAttempts(0);
+        user.setBlocked(true);
         return user;
     }
 }
