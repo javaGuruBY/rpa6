@@ -2,7 +2,7 @@ package ku.sign_сomparator;
 
 public class SignComparator {
 
-    public String compare(int number){
+    public static String compare(int number){
 
         if (number > 0)
             return "Number is positive";
@@ -18,10 +18,9 @@ public class SignComparator {
         int num2 = -11;
         int num3 = 0;
 
-        SignComparator sc = new SignComparator();
-        System.out.println("Number 1 is " + sc.compare(num1));
-        System.out.println("Number 2 is " + sc.compare(num2));
-        System.out.println("Number 3 is " + sc.compare(num3));
+        System.out.println("Number 1 is " + compare(num1));
+        System.out.println("Number 2 is " + compare(num2));
+        System.out.println("Number 3 is " + compare(num3));
 
     }
 }
