@@ -8,7 +8,7 @@ public class User {
 
     private String login;
     private String password;
-    private int loginAttempts;
+    private int loginAttempts = 3;
     private boolean blocked;
 
     public User() {
