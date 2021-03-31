@@ -2,7 +2,7 @@ package ku.phrase_analyser;
 
 public class PhraseAnalyser {
 
-    public String analyse(String text){
+    public static String analyse(String text){
         if (text.startsWith("Make") && text.endsWith("great again"))
             return "It stands no chance";
         else if (text.startsWith("Make") || text.endsWith("great again"))
@@ -12,15 +12,14 @@ public class PhraseAnalyser {
     }
 
     public static void main(String[] args) {
-        PhraseAnalyser pa = new PhraseAnalyser();
-        String txt1 = "Make this great again";
+        String txt1 = "Make profession great again";
         String txt2 = "It is great again";
-        String txt3 = "Make it's";
+        String txt3 = "Make it";
         String txt4 = "Great day again";
 
-        System.out.println(pa.analyse(txt1));
-        System.out.println(pa.analyse(txt2));
-        System.out.println(pa.analyse(txt3));
-        System.out.println(pa.analyse(txt4));
+        System.out.println(txt1 + " - " + analyse(txt1));
+        System.out.println(txt2 + " - " + analyse(txt2));
+        System.out.println(txt3 + " - " + analyse(txt3));
+        System.out.println(txt4 + " - " + analyse(txt4));
     }
 }
