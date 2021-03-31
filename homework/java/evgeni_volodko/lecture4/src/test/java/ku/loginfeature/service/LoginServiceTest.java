@@ -1,6 +1,6 @@
 package ku.loginfeature.service;
 
-import ku.loginfeature.bin.User;
+import ku.loginfeature.bean.User;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -26,6 +26,29 @@ public class LoginServiceTest {
 
         boolean actual = loginService.checkUserPassword(user, userInput);
         Assert.assertFalse(actual);
+    }
+
+    @Test
+    public void reduceLoginAttempts(){
+        loginService.reduceLoginAttempts(user);
+        Assert.assertEquals(2, user.getLoginAttempts());
+    }
+
+    @Test
+    public void loginPositive(){
+        String userInput = "qwerty";
+
+        boolean actual = loginService.login(user, userInput);
+        Assert.assertTrue(actual);
+    }
+
+    @Test
+    public void loginNegative(){
+        String userInput = "not qwerty";
+
+        boolean actual = loginService.login(user, userInput);
+        Assert.assertFalse(actual);
+        Assert.assertEquals(2, user.getLoginAttempts() );
     }
 
     @Before

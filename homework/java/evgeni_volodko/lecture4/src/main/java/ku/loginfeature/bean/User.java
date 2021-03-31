@@ -1,4 +1,4 @@
-package ku.loginfeature.bin;
+package ku.loginfeature.bean;
 
 import java.util.Objects;
 
