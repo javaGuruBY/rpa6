@@ -26,7 +26,7 @@
    B) She is really kind and funny (be)
 
 10.A) Do you always do your English homework? (you/always do)
-   B) No, i sometimes forget!
+   B) No, I sometimes forget!
 
 11.A) We don't get on very well with our neighbours. (not get on)
    B) Why not? Do they make a lot of noise? (they/make)
