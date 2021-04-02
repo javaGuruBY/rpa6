@@ -18,5 +18,5 @@
 16.	Банковский счет – bankAccount;
 17.	Банковский баланс – bankBalance;
 18.	Кредитная карта – creditCard;
-19.	Количество колес у велосипеда – numberOf Wheels;
+19.	Количество колес у велосипеда – numberOfWheels;
 20.	Стоимость билета – ticketCost;

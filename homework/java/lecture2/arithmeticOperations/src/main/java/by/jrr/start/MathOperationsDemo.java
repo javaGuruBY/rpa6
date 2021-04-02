@@ -36,8 +36,5 @@ public class MathOperationsDemo {
         mathOperationsDemo.multiplication(6, 8);
         mathOperationsDemo.division(9, 3);
         mathOperationsDemo.remainder(7, 3);
-
     }
-
-
 }
