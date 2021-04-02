@@ -1,0 +1,54 @@
+Complete with am, is or are:
+  I am Mike
+ 1. We are from Cordoba.
+ 2. He is early.
+ 3. They are teachers.
+ 4. Today is Wednesday.
+ 5. I am sorry.
+ 6. It is a hotel.
+ 7. You are in room 402.
+ 8. She is a student.
+ 9. My name is Carla.
+ 10.I am in a taxi
+
+Write the sentences with contractions.
+  He is late - He's late
+ 1. It is Friday - It's Friday
+ 2. They are at school. - They're at school
+ 3. I am very well. - I'm very well
+ 4. You are in my class. - You're in my class
+
+Write the sentences with a subject pronoun(I, The, etc.) and a contraction.
+  Mike and Hannah are students. - They're students
+ 1. John is in room 5. - He's in room 5
+ 2. Sam and I are friends. - We're friends.
+ 3. Julia is a teacher. - She's a teacher.
+ 4. The school is in Brighton. - It's in Brighton.
+ 5. Nico and Fernanda are in my class - They're in my class.
+
+Write negative sentences.
+  She's Australian. - She isn't Australian.
+ 1. I'm British. - I'm not British.
+ 2. They're Brazilian - They aren't Brazilian.
+ 3. It's in South America. - It isn't in South America.
+ 4. You're French. - You aren't French.
+
+Make questions and short answers.
+  /you English? Are you English? Yes, I am.
+ 1./I in room 10? Am I in room 10? Yes, I am.
+ 2./it Spanish? Is it Spanish? No, it isn't.
+ 3./they students? Are they students? No, they aren't
+ 4./he from the USA? Is he from the USA? Yes, he is.
+ 5./you Mike Bell? Are you Mike Bell? No, I'm not
+
+Complete the conversation. Use contractions, e.g. 'm,'s, if possible
+  A) Hi. I'm Mark.
+  B) hello Mark. My name is Maria.
+  A) Are you Spanish, Maria?
+  B) No. I'm not. I'm from Mexico.
+  A) Are you from Mexico City?
+  B) No. I'm from Tijuana.
+  A) Is Tijuana near Mexico City?
+  B) No, it isn't. It's in the north.
+  A) Are you in class 1?
+  B) No. i'm in class 2.
