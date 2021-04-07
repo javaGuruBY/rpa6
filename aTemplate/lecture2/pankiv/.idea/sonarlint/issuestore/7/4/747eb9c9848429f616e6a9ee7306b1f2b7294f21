@@ -1,0 +1,17 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(œÿ÷Àıÿÿÿÿ8òë»‰/
+T
+java:S1854
+"7Remove this useless assignment to local variable "res".(™ÑÒª8¡ö²‰/
+_
+java:S1226"BIntroduce a new variable instead of reusing the parameter "rand2".(òëÑÑ8Ò³‰/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ï¾Ÿ»ùÿÿÿÿ8òë»‰/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¡åşû8Óã¹‰/
+_
+java:S1226"BIntroduce a new variable instead of reusing the parameter "rand1".(åê³®8Å·‰/
+_
+java:S1226"BIntroduce a new variable instead of reusing the parameter "rand3".(†ş«à8Â‚‰/
+O
+java:S1128"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ8ä¾üœ‰/
+M
+java:S1068"0Remove this unused "additionRand" private field.(û¶³8øã’œ‰/
